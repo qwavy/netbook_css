@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&display=swap');
+
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+.header {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation__logo {
+    display: flex;
+}
+
+.header__navigation__logo img {
+    width: 34px;
+    height: 34px;
+    margin-top: 18%;
+    margin-right: 2%;
+}
+
+.header__navigation__logo p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.header__navigation__menu {}
+
+.header__navigation__menu a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header__navigation__search input {
+    height: 37px;
+    /* background-color: #686868; */
+    border-radius: 12px;
+    border: none;
+}
+
+.header__navigation__login button {
+    width: 123px;
+    height: 50px;
+    color: white;
+    border: white;
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+}
+
+.header__content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__content__text {
+    width: 700px;
+}
+
+.header__content__text__community button {
+    background-color: #E0FFFF;
+    /* цвет поменять мб хз */
+    color: #217BF4;
+    border: 1px solid #FFFF;
+    border-radius: 8px;
+}
+
+.header__content__text__community p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.header__content__text__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    color: #0A093D;
+}
+
+.header__content__text__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #656464;
+}
+
+.header__content__text_buttons {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__content__text__button__about button {
+    width: 150px;
+    height: 40px;
+    border: white;
+    color: white;
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+}
+
+.header__content__text__button__invite button {
+    width: 150px;
+    height: 40px;
+    opacity: 0.5;
+    color: #217BF4;
+    border: 1px solid #217BF4;
+    border-radius: 14px;
+}
+
+
+.about {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__content__text {
+    width: 600px;
+}
+
+.about__content__text__info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #217BF4;
+}
+
+.about__content__text__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #0A093D;
+}
+
+.about__content__text__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+}
+
+.about__content__text__list {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #171648;
+}
+
+.about__content__images {
+    display: flex;
+}
+
+.about__content__image1 {
+    margin-right: 5%;
+}
+
+.about__content__image2 {
+    margin-bottom: 5%;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.achievements__card__rating {
+    width: 350px;
+}
+
+.achievements__card__rating__info {
+    display: flex;
+}
+
+.achievements__card__rating__info__count {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0A093D;
+}
+
+.achievements__card__rating__members {
+    display: flex;
+}
+
+.achievements__card__rating__members__count {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.achievements__card__rating__members__count span {
+    color: #217BF4;
+}
+
+.achievements__card__rating__description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8C8C8C;
+}
+
+.achievements__card__rating__join span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #217BF4;
+}
+
+.achievements__card__awards {
+    width: 336px;
+    height: 340px;
+}
+
+.achievements__card__awards__info {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.achievements__card__awards__info img {
+    width: 32px;
+    height: 32px;
+}
+
+.achievements__card__awards__github {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.achievements__card__awards__github span {
+    color: #217BF4;
+}
+
+.achievements__card__awards__description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8C8C8C;
+}
+
+.achievements__card__awards__button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4A4A56;
+}
+
+.achievements__content {
+    width: 400px;
+    height: 322px;
+}
+
+.achievements__content__info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #217BF4;
+}
+
+.achievemnts__content__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #0A093D;
+}
+
+.achievemnts__content__description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #656464;
+}
+
+
+
+.achievemnts__content__button button {
+    width: 192px;
+    height: 58px;
+    background: #217BF4;
+    box-shadow: 0px 10px 22px rgba(33, 123, 244, 0.26);
+    border-radius: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    border: #FFFFFF;
+}
+
+.features {
+    display: grid;
+    justify-content: center;
+}
+
+.features__text {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.features__info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #217BF4;
+}
+
+.features__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #0A093D;
+}
+
+.features__description {
+    width: 421px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #656464;
+}
+
+.features__card__container {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.features__card {
+    width: 452px;
+    height: 200px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 14px;
+    margin-top: 2%;
+    align-items: center;
+}
+
+.features__card__icon {
+    width: 64px;
+    height: 64px;
+}
+
+.features__card__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.features__card__description {
+    width: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #656464;
+}
+
+.team {
+    margin-top: 5%;
+}
+
+.team__text {
+    display: grid;
+    text-align: center;
+}
+
+.team__info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #217BF4;
+}
+
+.team__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #0A093D;
+}
+
+.team__description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #656464;
+}
+
+.team__email__form {
+    display: flex;
+    justify-content: center;
+}
+
+.team__members__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team__members__card {
+    height: 300px;
+    width: 320px;
+    margin-top: 3%;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+    border-radius: 14px;
+}
+
+.team__members__image {
+    height: 150px;
+}
+
+.team__members__name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2F2C4A;
+}
+
+.team__members__user {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #656464;
+}
+
+.cta {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+    background: #E5F0FD;
+}
+
+.cta__text {
+    width: 350px;
+    height: 50px;
+    display: grid;
+    text-align: center;
+}
+
+.cta__info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #217BF4;
+}
+
+.cta__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #0A093D;
+}
+
+.cta__description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #656464;
+}
+
+.cta__image{
+    width: 600px;
+}
